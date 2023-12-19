@@ -4,4 +4,8 @@ resource "aws_instance" "example1" {
     key_name = var.key_name
     vpc_security_group_ids = [var.vpc_security_group_ids]
 
+    tags = {
+      Name = "Machine1"
+      environment = "dev"
+    }
 }
