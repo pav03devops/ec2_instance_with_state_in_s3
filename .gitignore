@@ -1,0 +1,5 @@
+#local terrafoorm file
+**/.terraform/*
+
+#dev tfvars
+*.dev.tfvars*
