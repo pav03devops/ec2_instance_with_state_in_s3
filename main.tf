@@ -6,6 +6,5 @@ resource "aws_instance" "example1" {
 
     tags = {
       Name = "Machine1"
-      environment = "dev"
     }
 }
